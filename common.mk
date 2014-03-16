@@ -66,6 +66,10 @@ endif
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
 
+# Note 2 Advanced Settings
+PRODUCT_PACKAGES += \
+    GummyNote2Settings
+
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     Stk \
