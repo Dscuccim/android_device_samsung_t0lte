@@ -74,8 +74,6 @@ PRODUCT_PACKAGES += \
     Stk \
     SamsungServiceMode
 
-$(call inherit-product, vendor/Gummy/config/nfc_enhanced.mk)
-
 # RIL
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.telephony.ril_class=SamsungQualcommRIL \
